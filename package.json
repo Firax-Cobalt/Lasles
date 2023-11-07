@@ -1,5 +1,5 @@
 {
-  "name": "LaslesVPN",
+  "name": "lasles",
   "private": true,
   "description": "LaslesVPN",
   "devDependencies": {
@@ -39,5 +39,17 @@
   "engines": {
     "node": "^16"
   },
-  "type": "module"
+  "type": "module",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firax-Cobalt/Lasles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firax-Cobalt/Lasles/issues"
+  },
+  "homepage": "https://github.com/Firax-Cobalt/Lasles#readme"
 }
