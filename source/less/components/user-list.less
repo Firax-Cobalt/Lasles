@@ -2,6 +2,7 @@
   .indent-list();
 
   display: flex;
+  align-items: center;
 }
 
 .user-list__item {
@@ -12,4 +13,17 @@
 
 .user-list__link {
   .indent-link();
+  display: block;
+}
+
+.user-list__item {
+  &:nth-child(2) {
+    .user-list__link {
+      padding: 13px 45px;
+      border: 1px solid @color-background-5;
+      border-radius: 50px;
+
+      color: @color-5;
+    }
+  }
 }
